@@ -73,6 +73,21 @@ SharkGame.ResourceTable = {
         value: 1000
     },
 
+    shark: {
+        name: 'sharks',
+        singleName: 'shark',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        income: {
+            'fish': 1
+        },
+        jobs: [
+            "scientist",
+            "nurse"
+        ],
+        value: 1000
+    },
+
     ray: {
         name: 'rays',
         singleName: 'ray',
