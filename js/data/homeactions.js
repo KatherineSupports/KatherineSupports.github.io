@@ -56,6 +56,42 @@ SharkGame.HomeActions = {
         helpText: "Concentrate your will to create earth."
     },
 
+    'createWater': {
+        name: "Create Water",
+        effect: {
+            resource: {
+                'water': 1
+            }
+        },
+        cost: {},
+        prereq: {
+            // no prereqs
+        },
+        outcomes: [
+            "Created some elemental water.",
+            "Formed raw water from nothing."
+        ],
+        helpText: "Concentrate your will to create water."
+    },
+
+    'createSpirit': {
+        name: "Create Spirit",
+        effect: {
+            resource: {
+                'spirit': 1
+            }
+        },
+        cost: {},
+        prereq: {
+            // no prereqs
+        },
+        outcomes: [
+            "Created some spirit energy.",
+            "Pulled pure spirit from nothing."
+        ],
+        helpText: "Concentrate your will to create earth."
+    },
+
     'prySponge': {
         name: "Pry sponge",
         effect: {
