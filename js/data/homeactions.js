@@ -2,27 +2,12 @@ SharkGame.HomeActions = {
 
     // FREEBIES ////////////////////////////////////////////////////////////////////////////////
 
-    'catchFish': {
-        name: "Catch fish",
-        effect: {
-            resource: {
-                'fish': 1
-            }
-        },
-        cost: {},
-        prereq: {},
-        outcomes: [
-            "Dropped the bass.",
-            "Ate a tuna."
-        ],
-        helpText: "Use your natural shark prowess to find and catch a fish."
-    },
 
     'createAir': {
         name: "Create Air",
         effect: {
             resource: {
-                'earth': 1
+                'air': 1
             }
         },
         cost: {},
