@@ -206,22 +206,6 @@ SharkGame.TitleBar = {
                 }
             }
         }
-    },
-
-    creditsLink: {
-        name: "credits",
-        main: false,
-        onClick: function() {
-            SharkGame.Main.showPane("Credits", SharkGame.credits);
-        }
-    },
-
-    donateLink: {
-        name: "donate",
-        main: false,
-        onClick: function() {
-            SharkGame.Main.showPane("Donate", SharkGame.donate);
-        }
     }
 };
 
