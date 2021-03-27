@@ -18,110 +18,44 @@ SharkGame.HomeActions = {
             "Ate a kipper. Wait. Hang on.",
             "You eat a fish hooray!",
             "Fish.",
+            "Ate a shark. Wait. No, it wasn't a shark.",
+            "Ate an anchovy.",
+            "Ate a catfish.",
+            "Ate a flounder.",
+            "Ate a haddock.",
+            "Ate a herring.",
+            "Ate a mackerel.",
+            "Ate a mullet.",
+            "Ate a perch.",
+            "Ate a pollock.",
+            "Ate a salmon.",
+            "Ate a sardine.",
+            "Ate a sole.",
+            "Ate a tilapia.",
+            "Ate a trout.",
+            "Ate a whitefish.",
+            "Ate a bass.",
+            "Ate a carp.",
+            "Ate a cod.",
+            "Ate a halibut.",
+            "Ate a mahi mahi.",
+            "Ate a monkfish.",
+            "Ate a perch.",
+            "Ate a snapper.",
+            "Ate a bluefish.",
+            "Ate a grouper.",
+            "Ate a sea bass.",
+            "Ate a yellowfin tuna.",
+            "Ate a marlin.",
+            "Ate an orange roughy.",
+            "Ate a shark.",
+            "Ate a swordfish.",
+            "Ate a tilefish.",
             "Ate a tuna."
 
         ],
         helpText: "Use your natural shark prowess to find and catch a fish."
     },
-
-
-    'createAir': {
-        name: "Create Air",
-        effect: {
-            resource: {
-                'air': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental air.",
-            "Formed raw air from nothing."
-
-        ],
-        helpText: "Concentrate your will to create air."
-    },
-
-    'createEarth': {
-        name: "Create Earth",
-        effect: {
-            resource: {
-                'earth': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental earth.",
-            "Formed raw earth from nothing."
-
-        ],
-        helpText: "Concentrate your will to create earth."
-    },
-
-    'createFire': {
-        name: "Create Fire",
-        effect: {
-            resource: {
-                'fire': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental fire.",
-            "Formed raw fire from nothing."
-
-        ],
-        helpText: "Concentrate your will to create fire."
-    },
-
-    'createWater': {
-        name: "Create Water",
-        effect: {
-            resource: {
-                'water': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental water.",
-            "Formed raw water from nothing."
-
-        ],
-        helpText: "Concentrate your will to create water."
-    },
-
-
-    'createSpirit': {
-        name: "Create Spirit",
-        effect: {
-            resource: {
-                'spirit': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental spirit.",
-            "Formed raw spirit from nothing."
-
-        ],
-        helpText: "Concentrate your will to create spirit."
-    },
-
-
 
     'prySponge': {
         name: "Pry sponge",
@@ -487,37 +421,67 @@ SharkGame.HomeActions = {
 
     // BUY ANIMALS ////////////////////////////////////////////////////////////////////////////////
 
-    'getCat': {
-        name: "Recruit another cat",
+    'getShark': {
+        name: "Recruit shark",
         effect: {
             resource: {
-                'cat': 1
+                'shark': 1
             }
         },
         cost: [
             {resource: "fish", costFunction: "linear", priceIncrease: 5}
         ],
-        max: "cat",
+        max: "shark",
         prereq: {
             resource: {
                 'fish': 5
             }
         },
         outcomes: [
-            "A hardworking cat joins you.",
-            "A happy-go-lucky cat joins you.",
-            "A dark striped cat joins you.",
-            "A tawny cat joins you.",
-            "A white cat joins you.",
-            "A black cat joins you."
+            "A bignose shark joins you.",
+            "A blacktip reef shark joins you.",
+            "A blue shark joins you.",
+            "A bull shark joins you.",
+            "A cat shark joins you.",
+            "A crocodile shark joins you.",
+            "A dusky whaler shark joins you.",
+            "A dogfish joins you.",
+            "A graceful shark joins you.",
+            "A grey reef shark joins you.",
+            "A goblin shark joins you.",
+            "A hammerhead shark joins you.",
+            "A hardnose shark joins you.",
+            "A lemon shark joins you.",
+            "A milk shark joins you.",
+            "A nervous shark joins you.",
+            "An oceanic whitetip shark joins you.",
+            "A pigeye shark joins you.",
+            "A sandbar shark joins you.",
+            "A silky shark joins you.",
+            "A silvertip shark joins you.",
+            "A sliteye shark joins you.",
+            "A speartooth shark joins you.",
+            "A spinner shark joins you.",
+            "A spot-tail shark joins you.",
+            "A mako shark joins you.",
+            "A tiger shark joins you.",
+            "A tawny shark joins you.",
+            "A white shark joins you.",
+            "A zebra shark joins you."
         ],
         multiOutcomes: [
-            "A whole bunch of cats join you.",
-            "That's a lot of cats.",
-            "The cat community grows!",
-            "More cats! MORE CATS!"
+            "A whole bunch of sharks join you.",
+            "That's a lot of sharks.",
+            "The shark community grows!",
+            "More sharks! MORE SHARKS!",
+            "Sharks for the masses. Mass sharks.",
+            "A shiver of sharks! No, that's a legit name. Look it up.",
+            "A school of sharks!",
+            "A shoal of sharks!",
+            "A frenzy of sharks!",
+            "A college of sharks! They're a little smarter than a school."
         ],
-        helpText: "Recruit a cat to help catch more fish."
+        helpText: "Recruit a shark to help catch more fish."
     },
 
     'getManta': {
@@ -2520,11 +2484,6 @@ SharkGame.HomeActionCategories = {
     basic: {
         name: "Basic",
         actions: [
-            "createAir",
-            "createEarth",
-            "createFire",
-            "createWater",
-            "createSpirit",
             "catchFish",
             "prySponge",
             "getClam",
@@ -2535,7 +2494,6 @@ SharkGame.HomeActionCategories = {
     frenzy: {
         name: "Frenzy",
         actions: [
-            "getCat",
             "getShark",
             "getManta",
             "getCrab",
