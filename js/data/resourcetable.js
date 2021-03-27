@@ -73,17 +73,6 @@ SharkGame.ResourceTable = {
         value: 1000
     },
 
-    grass: {
-        name: 'grass',
-        singleName: 'grass',
-        //desc: "Apex predators of the seas.",
-        color: '#92C1E0',
-        income: {
-            'air': 1
-        },
-        value: 1000
-    },
-
     ray: {
         name: 'rays',
         singleName: 'ray',
