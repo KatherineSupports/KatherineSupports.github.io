@@ -456,67 +456,31 @@ SharkGame.HomeActions = {
 
     // BUY ANIMALS ////////////////////////////////////////////////////////////////////////////////
 
-    'getShark': {
-        name: "Recruit shark",
+    'formCloud': {
+        name: "Form cloud",
         effect: {
             resource: {
-                'shark': 1
+                'cloud': 1
             }
         },
         cost: [
-            {resource: "fish", costFunction: "linear", priceIncrease: 5}
+            {resource: "water", costFunction: "linear", priceIncrease: 5}
+            {resource: "air", costFunction: "linear", priceIncrease: 5}
         ],
-        max: "shark",
+        max: "cloud",
         prereq: {
             resource: {
-                'fish': 5
+                'water': 5,
+                'air': 5
             }
         },
         outcomes: [
-            "A bignose shark joins you.",
-            "A blacktip reef shark joins you.",
-            "A blue shark joins you.",
-            "A bull shark joins you.",
-            "A cat shark joins you.",
-            "A crocodile shark joins you.",
-            "A dusky whaler shark joins you.",
-            "A dogfish joins you.",
-            "A graceful shark joins you.",
-            "A grey reef shark joins you.",
-            "A goblin shark joins you.",
-            "A hammerhead shark joins you.",
-            "A hardnose shark joins you.",
-            "A lemon shark joins you.",
-            "A milk shark joins you.",
-            "A nervous shark joins you.",
-            "An oceanic whitetip shark joins you.",
-            "A pigeye shark joins you.",
-            "A sandbar shark joins you.",
-            "A silky shark joins you.",
-            "A silvertip shark joins you.",
-            "A sliteye shark joins you.",
-            "A speartooth shark joins you.",
-            "A spinner shark joins you.",
-            "A spot-tail shark joins you.",
-            "A mako shark joins you.",
-            "A tiger shark joins you.",
-            "A tawny shark joins you.",
-            "A white shark joins you.",
-            "A zebra shark joins you."
+            "A tiny cloud forms in the sky."
         ],
         multiOutcomes: [
-            "A whole bunch of sharks join you.",
-            "That's a lot of sharks.",
-            "The shark community grows!",
-            "More sharks! MORE SHARKS!",
-            "Sharks for the masses. Mass sharks.",
-            "A shiver of sharks! No, that's a legit name. Look it up.",
-            "A school of sharks!",
-            "A shoal of sharks!",
-            "A frenzy of sharks!",
-            "A college of sharks! They're a little smarter than a school."
+            "That's a lot of clouds."
         ],
-        helpText: "Recruit a shark to help catch more fish."
+        helpText: "Make a cloud it will occasionally rain water."
     },
 
     'getManta': {
