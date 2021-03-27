@@ -2497,6 +2497,11 @@ SharkGame.HomeActionCategories = {
     basic: {
         name: "Basic",
         actions: [
+            "createAir",
+            "createEarth",
+            "createFire",
+            "createWater",
+            "createSpirit",
             "catchFish",
             "prySponge",
             "getClam",
