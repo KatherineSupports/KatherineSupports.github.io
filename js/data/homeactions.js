@@ -2,8 +2,7 @@ SharkGame.HomeActions = {
 
     // FREEBIES ////////////////////////////////////////////////////////////////////////////////
 
-
-    'createAir': {
+    'catchFish': {
         name: "Create Air",
         effect: {
             resource: {
