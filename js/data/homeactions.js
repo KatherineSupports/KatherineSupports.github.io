@@ -21,25 +21,6 @@ SharkGame.HomeActions = {
         helpText: "Concentrate your will to create air."
     },
 
-    'createAir': {
-        name: "Create Air",
-        effect: {
-            resource: {
-                'air': 1
-            }
-        },
-        cost: {},
-        prereq: {
-            // no prereqs
-        },
-        outcomes: [
-            "Created some elemental air.",
-            "Formed raw air from nothing."
-
-        ],
-        helpText: "Concentrate your will to create air."
-    },
-
     'createEarth': {
         name: "Create Earth",
         effect: {
@@ -77,6 +58,26 @@ SharkGame.HomeActions = {
         ],
         helpText: "Concentrate your will to create fire."
     },
+
+    'createWater': {
+        name: "Create Water",
+        effect: {
+            resource: {
+                'water': 1
+            }
+        },
+        cost: {},
+        prereq: {
+            // no prereqs
+        },
+        outcomes: [
+            "Created some elemental water.",
+            "Formed raw water from nothing."
+
+        ],
+        helpText: "Concentrate your will to create water."
+    },
+
 
     'createSpirit': {
         name: "Create Spirit",
