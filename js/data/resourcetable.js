@@ -20,6 +20,17 @@ SharkGame.ResourceTable = {
 
     // FRENZY
 
+    cat: {
+        name: 'cats',
+        singleName: 'cat',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        income: {
+            'fish': 1
+        },
+        value: 1000
+    },
+
     shark: {
         name: 'sharks',
         singleName: 'shark',
@@ -843,6 +854,7 @@ SharkGame.ResourceCategories = {
             "Are you happy with what you've done?"
         ],
         resources: [
+            "cat",
             "shark",
             "ray",
             "crab",

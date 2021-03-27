@@ -421,6 +421,39 @@ SharkGame.HomeActions = {
 
     // BUY ANIMALS ////////////////////////////////////////////////////////////////////////////////
 
+    'getCat': {
+        name: "Recruit another cat",
+        effect: {
+            resource: {
+                'cat': 1
+            }
+        },
+        cost: [
+            {resource: "fish", costFunction: "linear", priceIncrease: 5}
+        ],
+        max: "shark",
+        prereq: {
+            resource: {
+                'fish': 5
+            }
+        },
+        outcomes: [
+            "A hardworking cat joins you.",
+            "A happy-go-lucky cat joins you.",
+            "A dark striped cat joins you.",
+            "A tawny cat joins you.",
+            "A white cat joins you.",
+            "A black cat joins you."
+        ],
+        multiOutcomes: [
+            "A whole bunch of cats join you.",
+            "That's a lot of cats.",
+            "The cat community grows!",
+            "More cats! MORE CATS!"
+        ],
+        helpText: "Recruit a cat to help catch more fish."
+    },
+
     'getShark': {
         name: "Recruit shark",
         effect: {
@@ -2494,6 +2527,7 @@ SharkGame.HomeActionCategories = {
     frenzy: {
         name: "Frenzy",
         actions: [
+            "getCat",
             "getShark",
             "getManta",
             "getCrab",
