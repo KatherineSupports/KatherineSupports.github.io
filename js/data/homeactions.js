@@ -464,7 +464,7 @@ SharkGame.HomeActions = {
             }
         },
         cost: [
-            {resource: "water", costFunction: "linear", priceIncrease: 5}
+            {resource: "water", costFunction: "linear", priceIncrease: 5},
             {resource: "air", costFunction: "linear", priceIncrease: 5}
         ],
         max: "cloud",
@@ -475,12 +475,14 @@ SharkGame.HomeActions = {
             }
         },
         outcomes: [
+            "A tiny cloud forms in the sky.",
             "A tiny cloud forms in the sky."
         ],
         multiOutcomes: [
+            "That's a lot of clouds.",
             "That's a lot of clouds."
         ],
-        helpText: "Make a cloud it will occasionally rain water."
+        helpText: "Make a cloud that will occasionally rain water."
     },
 
     'getManta': {
