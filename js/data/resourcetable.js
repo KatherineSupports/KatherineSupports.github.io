@@ -18,6 +18,48 @@ SharkGame.ResourceTable = {
         value: -1
     },
 
+    // Elements
+
+    air: {
+        name: 'air',
+        singleName: 'air',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        value: 1
+    },
+
+    earth: {
+        name: 'earth',
+        singleName: 'earth',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        value: 1
+    },
+
+    fire: {
+        name: 'fire',
+        singleName: 'fire',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        value: 1
+    },
+
+    water: {
+        name: 'water',
+        singleName: 'water',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        value: 1
+    },
+
+    spirit: {
+        name: 'spirit',
+        singleName: 'spirit',
+        //desc: "Apex predators of the seas.",
+        color: '#92C1E0',
+        value: 1
+    },
+
     // FRENZY
 
     cat: {
