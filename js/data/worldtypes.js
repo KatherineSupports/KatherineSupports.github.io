@@ -19,7 +19,7 @@ SharkGame.WorldTypes = {
     start: {
         name: "Home",
         desc: "You shouldn't be seeing this.",
-        shortDesc: "strange blue",
+        shortDesc: "strange featureless",
         entry: "You enter a familiar blue sea, all your previous knowledge a dim memory.",
         style: "default",
         absentResources: [
