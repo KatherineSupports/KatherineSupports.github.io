@@ -485,10 +485,6 @@ SharkGame.HomeActions = {
         helpText: "Make a cloud that will occasionally rain water."
     },
 
-
-
-
-
     'getManta': {
         name: "Hire ray",
         effect: {
@@ -509,42 +505,6 @@ SharkGame.HomeActions = {
             "These guys seem to be kicking up a lot of sand!",
             "A spotted eagle ray joins you.",
             "A manta ray joins you.",
-            "A stingray joins you.",
-            "A clownnose ray joins you.",
-            "A bluespotted maskray joins you.",
-            "A bluntnose stingray joins you.",
-            "A oman masked ray joins you.",
-            "A bulls-eye electric ray joins you.",
-            "A shorttailed electric ray joins you.",
-            "A bentfin devil ray joins you.",
-            "A lesser electric ray joins you.",
-            "A cortez electric ray joins you.",
-            "A feathertail stingray joins you.",
-            "A thornback ray joins you.",
-            "A giant shovelnose ray joins you.",
-            "A pacific cownose ray joins you.",
-            "A bluespotted ribbontail ray joins you.",
-            "A marbled ribbontail ray joins you.",
-            "A blackspotted torpedo ray joins you.",
-            "A marbled torpedo ray joins you.",
-            "A atlantic torpedo ray joins you.",
-            "A panther torpedo ray joins you.",
-            "A spotted torpedo ray joins you.",
-            "A ocellated torpedo joins you.",
-            "A caribbean torpedo joins you.",
-            "A striped stingaree joins you.",
-            "A sparesly-spotted stingaree joins you.",
-            "A kapala stingaree joins you.",
-            "A common stingaree joins you.",
-            "A eastern fiddler ray joins you.",
-            "A bullseye stingray joins you.",
-            "A round stingray joins you.",
-            "A yellow stingray joins you.",
-            "A cortez round stingray joins you.",
-            "A porcupine ray joins you.",
-            "A sepia stingaree joins you.",
-            "A banded stingaree joins you.",
-            "A spotted stingaree joins you.",
             "A sea pancake joins you."
         ],
         multiOutcomes: [
