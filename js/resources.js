@@ -486,43 +486,5 @@ SharkGame.Resources = {
         $.each(SharkGame.ResourceTable, function(k, v) {
             SharkGame.Resources.changeResource(k, amount);
         });
-    },
-
-
-    // this was going to be used to randomise what resources were available but it needs better work to point out what is REQUIRED and what is OPTIONAL
-    // create all chains that terminate only at a cost-free action to determine how to get to a resource
-    // will return a weird vaguely tree structure of nested arrays (ughhh I need to learn how to OOP in javascript at some point, what a hack)
-    getResourceDependencyChains: function(resource, alreadyKnownList) {
-        var r = SharkGame.Resources;
-        var l = SharkGame.World;
-        var dependencies = [];
-        if(!alreadyKnownList) {
-            alreadyKnownList = []; // tracks resources we've already seen, an effort to combat cyclic dependencies
-        }
-
-        var sources = r.getResourceSources(resource);
-        // get resource costs for actions that directly get this
-        // only care about the resource types required
-        $.each(sources.actions, function(_, v) {
-            var actionCost = SharkGame.HomeActions[v].cost;
-            $.each(actionCost, function(_, w) {
-                var resource = w.resource;
-                if(l.doesResourceExist(resource)) {
-                    dependencies.push(resource);
-                    alreadyKnownList.push(resource);
-                }
-            })
-        });
-
-        // get dependencies for income resources
-        $.each(sources.income, function(_, v) {
-            if(l.doesResourceExist(v)) {
-                if(alreadyKnownList.indexOf(v) === -1) {
-                    dependencies.push(r.getResourceDependencyChains(v, alreadyKnownList));
-                }
-            }
-        });
-
-        return dependencies;
     }
 };
