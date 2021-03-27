@@ -97,7 +97,7 @@ SharkGame.HomeActions = {
 
 
     'prySponge': {
-        name: "Pry sponge",
+        name: "Pry  sponge",
         effect: {
             resource: {
                 'sponge': 1

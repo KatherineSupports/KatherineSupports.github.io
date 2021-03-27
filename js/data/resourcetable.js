@@ -24,7 +24,7 @@ SharkGame.ResourceTable = {
         name: 'air',
         singleName: 'air',
         //desc: "Apex predators of the seas.",
-        color: '#92C1E0',
+        color: '#92C1E1',
         value: 1
     },
 
