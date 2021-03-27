@@ -456,7 +456,7 @@ SharkGame.HomeActions = {
 
     // BUY ANIMALS ////////////////////////////////////////////////////////////////////////////////
 
-    'formCloud': {
+    'getShark': {
         name: "Form cloud",
         effect: {
             resource: {
