@@ -2526,7 +2526,7 @@ SharkGame.HomeActionCategories = {
         name: "Frenzy",
         actions: [
             "getShark",
-            "getManta",
+            "makeGrass",
             "getCrab",
             "getShrimp",
             "getLobster",
