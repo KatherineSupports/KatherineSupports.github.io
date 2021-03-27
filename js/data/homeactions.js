@@ -1,6 +1,62 @@
 SharkGame.HomeActions = {
 
     // FREEBIES ////////////////////////////////////////////////////////////////////////////////
+    
+    'catchFish': {
+        name: "Catch fish",
+        effect: {
+            resource: {
+                'fish': 1
+            }
+        },
+        cost: {},
+        prereq: {
+            // no prereqs
+        },
+        outcomes: [
+            "Dropped the bass.",
+            "Ate a kipper. Wait. Hang on.",
+            "You eat a fish hooray!",
+            "Fish.",
+            "Ate a shark. Wait. No, it wasn't a shark.",
+            "Ate an anchovy.",
+            "Ate a catfish.",
+            "Ate a flounder.",
+            "Ate a haddock.",
+            "Ate a herring.",
+            "Ate a mackerel.",
+            "Ate a mullet.",
+            "Ate a perch.",
+            "Ate a pollock.",
+            "Ate a salmon.",
+            "Ate a sardine.",
+            "Ate a sole.",
+            "Ate a tilapia.",
+            "Ate a trout.",
+            "Ate a whitefish.",
+            "Ate a bass.",
+            "Ate a carp.",
+            "Ate a cod.",
+            "Ate a halibut.",
+            "Ate a mahi mahi.",
+            "Ate a monkfish.",
+            "Ate a perch.",
+            "Ate a snapper.",
+            "Ate a bluefish.",
+            "Ate a grouper.",
+            "Ate a sea bass.",
+            "Ate a yellowfin tuna.",
+            "Ate a marlin.",
+            "Ate an orange roughy.",
+            "Ate a shark.",
+            "Ate a swordfish.",
+            "Ate a tilefish.",
+            "Ate a tuna."
+
+        ],
+        helpText: "Use your natural shark prowess to find and catch a fish."
+    },
+
 
     'createAir': {
         name: "Create Air",
