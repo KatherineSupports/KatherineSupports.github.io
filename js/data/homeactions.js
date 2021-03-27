@@ -485,34 +485,8 @@ SharkGame.HomeActions = {
         helpText: "Make a cloud that will occasionally rain water."
     },
 
-    'makeGrass': {
-        name: "Form grass",
-        effect: {
-            resource: {
-                'cloud': 1
-            }
-        },
-        cost: [
-            {resource: "earth", costFunction: "linear", priceIncrease: 5},
-            {resource: "water", costFunction: "linear", priceIncrease: 5}
-        ],
-        max: "grass",
-        prereq: {
-            resource: {
-                'earth': 5,
-                'water': 5
-            }
-        },
-        outcomes: [
-            "A blade of grass rises from some earth.",
-            "A blade of grass rises from some earth."
-        ],
-        multiOutcomes: [
-            "That's a lot of clouds.",
-            "That's a lot of clouds."
-        ],
-        helpText: "A blade of grass slowly seeps air."
-    },
+
+
 
 
     'getManta': {
@@ -2526,7 +2500,7 @@ SharkGame.HomeActionCategories = {
         name: "Frenzy",
         actions: [
             "getShark",
-            "makeGrass",
+            "getManta",
             "getCrab",
             "getShrimp",
             "getLobster",
